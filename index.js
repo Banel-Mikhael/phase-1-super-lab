@@ -2,7 +2,7 @@
 
 class Tree{
     constructor(species){
-        this.species=species
+        this.species=species  
     }
     static definition(){
         return "A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves."
@@ -33,4 +33,4 @@ class Evergreen extends Tree{
             super.definition()+" Evergreens keep their leaves all year round."
         )
     }
-}
+} 
